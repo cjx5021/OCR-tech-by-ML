@@ -7,5 +7,5 @@ The program converts the input image into a grayscale image and then converts it
 This is a simple B with 100*100 pixel test
 ![image](https://github.com/cjx5021/OCR-tech-by-ML/blob/main/Demo/Demo.png)
 This is a blue A with 800*800 pixel test
-![image](https://github.com/cjx5021/OCR-tech-by-ML/blob/main/Demo/Demo_blue.png)
+
 ## Paper
