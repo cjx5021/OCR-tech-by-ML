@@ -2,10 +2,10 @@
 ## Introduction
 This is a simple OCR program use machine learning to train the natural network to recognize 26 capital character. With the improvement of the train data, the accuracy of the program will continuously increase.
 ## Theory
-The program converts the input image into a grayscale image and then converts it into a 289*1 matrix (because the training data is in a 17 * 17 pixel format). Program Randomly selects points to obtain the initial calculation parameters, and continuously adjust the parameters through forward and backward propagation to improve the accuracy. Here we include the following different layers: fully connected layer, activation function layer, loss function layer, data processing layer and accuracy layer.<br/>
-### Fully connected layer: Initialize parameters, propagate calculation results through forward propagation, and modify parameters through back propagation.<br/>
-Activation layer: Add nonlinear factors to the neural network and convert the calculation results into a percentage format which is easy to identify.<br/>
-Loss function layer: Calculate the accuracy of the current training data, the starting point of back propagation, and back propagation by calculating the error with the expected input value.<br/>
+The program converts the input image into a grayscale image and then converts it into a 289*1 matrix (because the training data is in a 17 * 17 pixel format). Program Randomly selects points to obtain the initial calculation parameters, and continuously adjust the parameters through forward and backward propagation to improve the accuracy. Here we include the following different layers: fully connected layer, activation function layer, loss function layer, data processing layer and accuracy layer.<br/><br/>
+Fully connected layer: Initialize parameters, propagate calculation results through forward propagation, and modify parameters through back propagation.<br/><br/>
+Activation layer: Add nonlinear factors to the neural network and convert the calculation results into a percentage format which is easy to identify.<br/><br/>
+Loss function layer: Calculate the accuracy of the current training data, the starting point of back propagation, and back propagation by calculating the error with the expected input value.<br/><br/>
 Accuracy laye: Calculate the accuracy of the program, generally use data different from the training data.
 ## Demo
 This is a simple B with 100 * 100 pixel test
